@@ -11,8 +11,9 @@ spec:
   - namespace: "ns1"
     server: "kubernetes.default.svc"
   syncPolicy:
+    automated: {}
     syncOptions:
-    - CreateNameSpace=true
+    - CreateNamespace=true
 
   clusterResourceWhitelist:
   - group: '*'
