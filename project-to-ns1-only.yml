@@ -10,10 +10,6 @@ spec:
   destinations:
   - namespace: "ns1"
     server: "kubernetes.default.svc"
-  syncPolicy:
-    automated: {}
-    syncOptions:
-    - CreateNamespace=true
 
   clusterResourceWhitelist:
   - group: '*'
