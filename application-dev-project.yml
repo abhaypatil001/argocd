@@ -10,7 +10,7 @@ spec:
   project: project-with-specific-namespace
   source:
     path: guestbook
-    repoURL: "ttps://github.com/mabusaa/argocd-example-apps.git
+    repoURL: https://github.com/mabusaa/argocd-example-apps.git
     targetRevision: master
   syncPolicy:
     syncOptions:
