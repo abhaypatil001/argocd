@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     namespace: ns1
-    server: "https://kubernetes.default.svc"
+    server: https://kubernetes.default.svc
   project: project-with-specific-namespace
   source:
     path: guestbook
-    repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
+    repoURL: "ttps://github.com/mabusaa/argocd-example-apps.git
     targetRevision: master
   syncPolicy:
     syncOptions:
