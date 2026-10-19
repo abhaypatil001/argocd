@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
   name: project-with-specific-namespace
-  namespace: ns1
+  namespace: argocd
 spec:
   description: project-with-specific-namespace
   sourceRepos:
